@@ -1,0 +1,2 @@
+#!/bin/sh
+ocamlfind ocamlopt -package zarith -linkpkg morello_esr_decode.ml  -o morello-esr-decode
